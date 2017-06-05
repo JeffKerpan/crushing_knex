@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('artist').insert([
         {id: 1, name: 'Sam Bush'},
-        {id: 1, name: 'Bela Fleck'}
+        {id: 2, name: 'Bela Fleck'}
       ]);
     });
 };

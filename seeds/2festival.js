@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('festival').insert([
-        {id: 'default', name: 'Telluride', location: 'Telluride', date: '2018-06-21', cost: 250}
+        {id: 1, name: 'Telluride', location: 'Telluride', date: '2018-06-21', cost: 250}
       ]);
     });
 };

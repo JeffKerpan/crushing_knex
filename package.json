@@ -2,7 +2,7 @@
   "name": "crushing_knex",
   "version": "1.0.0",
   "description": "## Objectives",
-  "main": "knex.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/JeffKerpan/crushing_knex#readme",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
     "knex": "^0.13.0",
     "pg": "^6.2.3"
   }
